@@ -10,9 +10,9 @@ Da questa [risorsa](https://dati.istruzione.it/opendata/opendata/catalogo/elemen
 - scuole paritarie
 - scuole statali di Valle d'Aosta, Provincia Autonoma di Trento e Provincia Autonoma di Bolzano
 - scuole paritarie di Valle d'Aosta, Provincia Autonoma di Trento e Provincia Autonoma di Bolzano<br/>
-<br/>
+
 note:
-- i dati sono privi di coordinate geografiche
+* i dati sono privi di coordinate geografiche
 
 ### elenco centri abitati da OpenStreetMap
 A causa del fatto che in Italia esistono diversi comuni sparsi e del fatto di avere un punto significativo che indica il baricentro sociale di un luogo, si è optato per scaricare i dati dei centi urbani da OpenStreetMap selezionando i valori di [city](https://wiki.openstreetmap.org/wiki/Tag%3Aplace%3Dcity), [sub-urb](https://wiki.openstreetmap.org/wiki/Tag%3Aplace%3Dsuburb), [town](https://wiki.openstreetmap.org/wiki/Tag%3Aplace%3Dtown) e [village](https://wiki.openstreetmap.org/wiki/Tag%3Aplace%3Dvillage) dal tag [place](https://wiki.openstreetmap.org/wiki/Map_features#Place) <br/>
