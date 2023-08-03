@@ -10,13 +10,15 @@ Da questa [risorsa](https://dati.istruzione.it/opendata/opendata/catalogo/elemen
 - scuole paritarie
 - scuole statali di Valle d'Aosta, Provincia Autonoma di Trento e Provincia Autonoma di Bolzano
 - scuole paritarie di Valle d'Aosta, Provincia Autonoma di Trento e Provincia Autonoma di Bolzano<br/>
+<br/>
 note:
 - i dati sono privi di coordinate geografiche
 
 ### elenco centri abitati da OpenStreetMap
 A causa del fatto che in Italia esistono diversi comuni sparsi e del fatto di avere un punto significativo che indica il baricentro sociale di un luogo, si è optato per scaricare i dati dei centi urbani da OpenStreetMap selezionando i valori di [city](https://wiki.openstreetmap.org/wiki/Tag%3Aplace%3Dcity), [sub-urb](https://wiki.openstreetmap.org/wiki/Tag%3Aplace%3Dsuburb), [town](https://wiki.openstreetmap.org/wiki/Tag%3Aplace%3Dtown) e [village](https://wiki.openstreetmap.org/wiki/Tag%3Aplace%3Dvillage) dal tag [place](https://wiki.openstreetmap.org/wiki/Map_features#Place) <br/>
  si possono ottenere anche attraverso questa [query alle overpass-api](https://overpass-turbo.eu/s/1yku)<br/>
- note
+<br/>
+note
  - la categorizzazione è delegata all'interpretazione di chi ha inserito i dati
  - il punto che rappresenta il toponimo è a discrezione di chi ha inserito i dati: in alcuni casi è il "baricentro sociale", in altri il centroide del confine comunale, in altri la piazza principale o il municipo o il campanile ...
  - ci sono diversi casi in cui è stata creata un'area. In tal caso si sceglie di utilizzare un punto significativo all'interno dell'area sulla base della [funzione di geopandas](https://geopandas.org/en/stable/docs/reference/api/geopandas.GeoSeries.representative_point.html)
@@ -44,7 +46,7 @@ Alcuni consigli per effettura delle verifiche<br/>:
 - il punto si trova all'interno del comune interessato?
 - il punto si trova vicino alla via dichiarata? (controllo con uso di reverse-geocoding?)<br/>
 Ulteriori verifiche possono essere fatte con ricerche mirate online e attraverso la verifica visita attraverso strumenti come Google Street View<br/>
-note<br/>
+<br/>note<br/>
 - fare molta attenzione al numero di chiamate al secondo
 
 # Procedura
