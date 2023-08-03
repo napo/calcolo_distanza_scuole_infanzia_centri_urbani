@@ -42,7 +42,7 @@ L'istruzione *-D"dw.graphhopper.datareader.file=italy-latest.osm.pbf"* può esse
 ## Geocoding
 Per arricchire le informazioni sulle posizioni delle scuole d'infanzia viene utilizzato il servizio di [geocoding di ESRI ArcGIS](https://developers.arcgis.com/documentation/mapping-apis-and-services/geocoding/geocode-addresses/) sempre attraverso [geopandas](https://geopandas.org/en/stable/docs/reference/api/geopandas.tools.geocode.html)<br/> 
 Il geocoding comunque spesso restituisce valori che vanno verificati i corretti.<br/>
-Alcuni consigli per effettura delle verifiche<br/>:
+Alcuni consigli per effettuare delle verifiche:<br/>
 - il punto si trova all'interno del comune interessato?
 - il punto si trova vicino alla via dichiarata? (controllo con uso di reverse-geocoding?)<br/>
 Ulteriori verifiche possono essere fatte con ricerche mirate online e attraverso la verifica visita attraverso strumenti come Google Street View<br/>
